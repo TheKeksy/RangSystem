@@ -1,0 +1,15 @@
+package com.github.TheKeksy.RangSystem;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class RangSystem extends JavaPlugin {
+	
+	public void onEnable() {
+		this.getLogger().info("Plugin enabled");
+	}
+	
+	public void onDisable() {
+		
+	}
+
+}

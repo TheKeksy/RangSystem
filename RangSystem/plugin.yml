@@ -1,0 +1,7 @@
+name: RangSystem
+main: com.github.TheKeksy.RangSystem.RangSystem
+version: 1.0
+commands:
+    wahl:
+      usage: /wahl
+      description: Ja weiss auch nicht
