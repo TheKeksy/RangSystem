@@ -28,9 +28,14 @@ public class Wahl implements CommandExecutor {
 		
 		if (cmd.getName().equalsIgnoreCase("wahl")) {
 			hm.put(p, args[0]);
-			sender.sendMessage(args[0] + p.getPlayerListName());
+			//sender.sendMessage(args[0] + p.getPlayerListName());
+			sender.sendMessage("Deine Wahl ist: " + hm.get(p));
 			
 			return true;
+		}
+		
+		if (cmd.getName().equalsIgnoreCase("wahl")) {
+			
 		}
 		return false;
 	}
